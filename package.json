@@ -1,0 +1,21 @@
+{
+  "name": "moshify",
+  "version": "1.0.0",
+  "description": "## Components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoinspiration/mymoshify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoinspiration/mymoshify/issues"
+  },
+  "homepage": "https://github.com/yoinspiration/mymoshify#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
