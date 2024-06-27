@@ -1,5 +1,7 @@
 # Moshify Homepage
 
+网页发布到了Netlify, [Moshify Homepage](https://moshify123.netlify.app/)
+
 ## Components
 
 * input
