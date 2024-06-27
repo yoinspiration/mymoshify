@@ -14,11 +14,8 @@
   </head>
   <body>
     <header>
-      <nav class="nav collapsible">
-        <!-- <nav class="nav collapsible container"> -->
-        <a class="nav__brand" href="/">
-          <img src="images/logo.svg" alt="" />
-        </a>
+      <nav class="nav collapsible container">
+        <img class="nav__brand" src="images/logo.svg" alt="" />
         <svg class="icon icon--white nav__toggler">
           <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
@@ -267,7 +264,7 @@
     
     <section class="block block--dark block--skewed-right block-showcase">
       <header class="block__header">
-        <h2 class="block__heading">User-friendly Control Panel</h2>
+        <h2>User-friendly Control Panel</h2>
       </header>
       <div class="container grid grid--cols-2">
         <picture class="block-showcase__image">
@@ -383,17 +380,19 @@
       </div>
     </section>
     
-    <div class="callout callout--primary">
-      <div class="grid grid--cols-2">
-        <div class="callout__content">
-          <h2 class="callout__heading">Ready to Get Started?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            consectetur totam nemo magni et odio ut deleniti sint! Fugit,
-            aliquam!
-          </p>
+    <div class="container">
+      <div class="callout callout--primary callout-signup">
+        <div class="grid grid--cols-2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Ready to Get Started?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+              consectetur totam nemo magni et odio ut deleniti sint! Fugit,
+              aliquam!
+            </p>
+          </div>
+          <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
         </div>
-        <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
       </div>
     </div>
     
