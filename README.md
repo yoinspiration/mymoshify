@@ -44,3 +44,11 @@
 
 * quote
 ![quote](ReadmeImg/quote.png)
+
+
+* grid
+![grid](ReadmeImg/grid.png)
+
+
+* testimonial
+![testimonial](ReadmeImg/testimonial.png)
