@@ -213,7 +213,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -308,6 +308,7 @@ a {
 .input-group .input {
   border: 0;
   flex-grow: 1;
+  width: 0;
 }
 
 .input-group .btn {
@@ -655,9 +656,12 @@ a {
 }
 
 /* Navigation Bar */
+body > header {
+  background: #000;
+}
+
 .nav {
   align-items: center;
-  background: #000;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -754,10 +758,11 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
   font-size: 2rem;
   font-weight: 600;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   justify-items: center;
   margin: 0 auto;
