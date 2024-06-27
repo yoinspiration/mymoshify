@@ -40,3 +40,7 @@
 
 * media
 ![media](ReadmeImg/media.png)
+
+
+* quote
+![quote](ReadmeImg/quote.png)
