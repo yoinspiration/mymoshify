@@ -100,3 +100,7 @@
 
 * testimonial-block
 ![testimonial-block](ReadmeImg/testimonial-block.png)
+
+
+* footer
+![footer](ReadmeImg/footer.png)
