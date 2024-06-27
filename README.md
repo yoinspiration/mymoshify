@@ -96,3 +96,7 @@
 
 * showcase-block
 ![showcase-block](ReadmeImg/showcase-block.png)
+
+
+* testimonial-block
+![testimonial-block](ReadmeImg/testimonial-block.png)
