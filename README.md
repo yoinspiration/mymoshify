@@ -56,3 +56,7 @@
 
 * callout
 ![callout](ReadmeImg/callout.png)
+
+
+* collapsible
+![collapsibles](ReadmeImg/collapsibles.png)
