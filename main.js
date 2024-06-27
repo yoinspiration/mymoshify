@@ -2,9 +2,9 @@
 const collapsibles = document.querySelectorAll(".collapsible");
 
 collapsibles.forEach((collapsible) => {
-  const collapsibleChevron = collapsible.querySelector(".collapsible__chevron");
+  const toggle = collapsible.querySelector(".collapsible__chevron, .nav__toggler");
 
-  collapsibleChevron.addEventListener("click", function () {
+  toggle.addEventListener("click", function () {
     collapsible.classList.toggle("collapsible--expanded");
   });
 });
