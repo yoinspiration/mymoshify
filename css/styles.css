@@ -704,7 +704,6 @@ body > header {
 }
 
 .nav__toggler {
-  cursor: pointer;
   opacity: 0.5;
   transition: all 0.15s;
 }
